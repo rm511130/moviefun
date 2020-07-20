@@ -1,7 +1,6 @@
 ---
 applications:
 - name: movie-fun
-  memory: 1G
   random-route: false
   buildpacks:
     - https://github.com/cloudfoundry-community/tomee-buildpack.git
