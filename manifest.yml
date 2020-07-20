@@ -1,4 +1,7 @@
-name: movie-fun
-random-route: true
-path: target/moviefun.war
-buildpack: https://github.com/cloudfoundry-community/tomee-buildpack.git
+---
+applications:
+- name: movie-fun
+  memory: 1G
+  random-route: false
+  buildpacks:
+    - https://github.com/cloudfoundry-community/tomee-buildpack.git
